@@ -10,7 +10,7 @@ class Webhooks::MoviesController < Webhooks::BaseController
   #     -d '{"title":"Dungeons & Dragons: Honor Among Thieves"}'
   #
   # If you'd like to override the base controller's behavior, you can do so here
-  # def create
-  #   head :ok
-  # end
+  def create
+    head :ok
+  end
 end
